@@ -2,12 +2,12 @@ class UsersController < ApplicationController
 
     def index 
         users = User.all 
-        render json: users.to_json({include: {posts: {only: [:post, :likes]}}})
+        render json: users.to_json({include: {posts: {only: [:post, :likes, :comments]}}})
     end
 
     def show 
         user = User.find(params[:id])
-        render json: user.to_json({include: {posts: {only: [:post, :likes]}}})
+        render json: user.to_json({include: {posts: {only: [:post, :likes, :comments]}}})
     end
 
     def create 
