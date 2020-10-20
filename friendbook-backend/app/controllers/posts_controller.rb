@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
 
+    skip_before_action :verify_authenticity_token
+
     def index 
         posts = Post.all 
         render json: posts.to_json({include: {comments:{only:[:comment, :likes]}}})
@@ -16,7 +18,8 @@ class PostsController < ApplicationController
     end
 
     def update 
-        post = Post.update(params[:id])
+        post = Post.find(params[:id])
+        post.update(post_params)
         render json: post
     end
 
