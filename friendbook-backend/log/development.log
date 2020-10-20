@@ -4895,3 +4895,1189 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 64ms (Views: 0.3ms | ActiveRecord: 5.1ms | Allocations: 12465)
 
 
+Started GET "/" for ::1 at 2020-10-20 12:56:45 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.0ms | Allocations: 315)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 1604)
+
+
+Started GET "/users" for ::1 at 2020-10-20 12:56:52 -0400
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+...                        include: {comments: {only: [:comment...
+...                        ^~~~~~~
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+...s: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 12:57:21 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+...s: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 12:57:23 -0400
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+...s: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting =>
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 12:59:16 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:5: syntax error, unexpected '{', expecting '}'
+...sts: {only: [:post, :likes]}} {comments: {only: [:comment, :...
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting end
+...ts: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:5: syntax error, unexpected '{', expecting '}'
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '{', expecting '}'
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:5: syntax error, unexpected '{', expecting '}'
+app/controllers/users_controller.rb:5: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:28: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 12:59:47 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected {, expecting ')'
+...                              {include: {comments: {only: [:...
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected ')', expecting end
+...: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:6: syntax error, unexpected {, expecting ')'
+app/controllers/users_controller.rb:6: syntax error, unexpected ')', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected {, expecting ')'
+app/controllers/users_controller.rb:6: syntax error, unexpected ')', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected {, expecting ')'
+app/controllers/users_controller.rb:6: syntax error, unexpected ')', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 14:05:37 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+...                        include: {comments: {only: [:comment...
+...                        ^~~~~~~
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+...s: {only: [:comment, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 14:06:05 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 2197)
+
+
+  
+ArgumentError (No association found for name `post'. Has it been defined yet?):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `index'
+Started GET "/users" for ::1 at 2020-10-20 14:06:22 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 21]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 23]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 24]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 25]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 26]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 27]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 28]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 30]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+Completed 200 OK in 114ms (Views: 2.4ms | ActiveRecord: 5.6ms | Allocations: 28738)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 14:15:32 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/posts/" for ::1 at 2020-10-20 14:15:32 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 106ms (Views: 0.7ms | ActiveRecord: 1.4ms | Allocations: 12994)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (3.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (2.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 330ms (Views: 0.2ms | ActiveRecord: 27.5ms | Allocations: 33557)
+
+
+Started GET "/users" for ::1 at 2020-10-20 14:22:04 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+...                           only: [:post, :likes]}}})
+...                           ^~~~
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+...         only: [:post, :likes]}}})
+...                              ^
+/Users/designerjina/Development/code/Mod3-V2/Mod3-GroupProject/code/friendbook/friendbook-backend/app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+app/controllers/users_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/users_controller.rb:29: syntax error, unexpected end-of-input, expecting end
+Started GET "/users" for ::1 at 2020-10-20 14:22:46 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 21]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (2.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (16.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (1.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.9ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 23]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 24]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (3.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (3.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 25]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 26]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (20.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 27]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (10.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 28]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (1.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 30]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/users_controller.rb:5:in `index'
+Completed 200 OK in 1135ms (Views: 0.8ms | ActiveRecord: 102.1ms | Allocations: 50021)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:26:13 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:26:13 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+Processing by UsersController#show as */*
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  Parameters: {"id"=>"22"}
+  [1m[36mComment Load (30.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (4.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+Completed 200 OK in 32ms (Views: 1.0ms | ActiveRecord: 6.8ms | Allocations: 3221)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (2.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 465ms (Views: 0.7ms | ActiveRecord: 43.1ms | Allocations: 26071)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:29:03 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Started GET "/users//22" for ::1 at 2020-10-20 14:29:03 -0400
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 2868)
+
+
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 80ms (Views: 0.2ms | ActiveRecord: 6.1ms | Allocations: 24821)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:33:09 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (2.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:33:09 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 1.7ms | Allocations: 3481)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 124ms (Views: 0.2ms | ActiveRecord: 8.6ms | Allocations: 24960)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:35:24 -0400
+Started GET "/users//22" for ::1 at 2020-10-20 14:35:24 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 5682)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (16.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 117ms (Views: 0.2ms | ActiveRecord: 20.6ms | Allocations: 23987)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:39:26 -0400
+Started GET "/users//22" for ::1 at 2020-10-20 14:39:26 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Processing by UsersController#show as */*
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  Parameters: {"id"=>"22"}
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 8481)
+
+
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 106ms (Views: 0.5ms | ActiveRecord: 3.8ms | Allocations: 24480)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:40:40 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:40:40 -0400
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by UsersController#show as */*
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 2928)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 103ms (Views: 0.2ms | ActiveRecord: 5.7ms | Allocations: 24641)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:42:22 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:42:22 -0400
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+Processing by UsersController#show as */*
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  Parameters: {"id"=>"22"}
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 4907)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 86ms (Views: 0.1ms | ActiveRecord: 6.8ms | Allocations: 24958)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:52:22 -0400
+Started GET "/users//22" for ::1 at 2020-10-20 14:52:22 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PostsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 0.2ms | ActiveRecord: 0.9ms | Allocations: 3814)
+
+
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 103ms (Views: 0.2ms | ActiveRecord: 7.8ms | Allocations: 24222)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:53:00 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:53:00 -0400
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by UsersController#show as */*
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  Parameters: {"id"=>"22"}
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 3826)
+
+
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 155ms (Views: 0.2ms | ActiveRecord: 6.7ms | Allocations: 24959)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:54:00 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+Started GET "/users//22" for ::1 at 2020-10-20 14:54:00 -0400
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by UsersController#show as */*
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  Parameters: {"id"=>"22"}
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 2927)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 179ms (Views: 0.1ms | ActiveRecord: 5.4ms | Allocations: 24961)
+
+
+Started GET "/posts/" for ::1 at 2020-10-20 14:54:46 -0400
+Started GET "/users//22" for ::1 at 2020-10-20 14:54:46 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 3081)
+
+
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 41]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 43]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 44]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 45]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 46]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 47]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 48]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 52]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 53]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 54]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.9ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 55]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 56]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 57]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 58]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 59]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 60]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 83ms (Views: 0.2ms | ActiveRecord: 5.9ms | Allocations: 23570)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:04:26 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 2.8ms | Allocations: 2003)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:04:28 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 1968)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:08:24 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.0ms | Allocations: 1968)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:09:36 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 1968)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:09:38 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 1968)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:09:58 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1968)
+
+
+Started GET "/users/22" for ::1 at 2020-10-20 15:10:26 -0400
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 84ms (Views: 0.2ms | ActiveRecord: 3.2ms | Allocations: 16705)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:10:54 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 61ms (Views: 0.2ms | ActiveRecord: 5.1ms | Allocations: 23696)
+
+
+Started GET "/users/22" for ::1 at 2020-10-20 15:10:58 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 5805)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:11:07 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (6.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 39ms (Views: 0.1ms | ActiveRecord: 7.8ms | Allocations: 5792)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:13:43 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 1.7ms | Allocations: 5792)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:17:45 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 73ms (Views: 3.0ms | ActiveRecord: 1.1ms | Allocations: 5806)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:18:51 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (2.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 29ms (Views: 0.2ms | ActiveRecord: 4.1ms | Allocations: 5806)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:20:22 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (3.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 31ms (Views: 0.2ms | ActiveRecord: 4.6ms | Allocations: 5792)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:20:25 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 112ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 5795)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:21:26 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 1.6ms | Allocations: 5792)
+
+
+Started GET "/users//22" for ::1 at 2020-10-20 15:21:59 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 22]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 42]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 49]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 50]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 51]]
+  ↳ app/controllers/users_controller.rb:10:in `show'
+Completed 200 OK in 95ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 5792)
+
+
