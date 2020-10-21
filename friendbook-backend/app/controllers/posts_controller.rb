@@ -4,12 +4,12 @@ class PostsController < ApplicationController
 
     def index 
         posts = Post.all 
-        render json: posts.to_json({include: {comments:{only:[:comment, :likes]}}})
+        render json: posts.to_json({include: {comments:{only:[:comment, :likes, :id]}}})
     end
 
     def show 
         post = Post.find(params[:id])
-        render json: post
+        render json: post.to_json({include: {comments:{only:[:comment, :likes, :id]}}})
     end
 
     def create 
