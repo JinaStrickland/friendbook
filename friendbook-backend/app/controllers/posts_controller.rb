@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     end
 
     def create 
-        post = Post.create(params[:id])
+        post = Post.create(post_params)
         render json: post
     end
 
@@ -31,7 +31,7 @@ class PostsController < ApplicationController
 
     private 
     def post_params 
-        params.require(:post).permit(:post, :likes, :user_id)
+        params.permit(:post, :likes, :user_id)
     end
 
 end
