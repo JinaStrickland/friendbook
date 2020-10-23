@@ -18,14 +18,14 @@ User.destroy_all
 end
 
 
-20.times do Post.create(
+50.times do Post.create(
     post: Faker::TvShows::BigBangTheory.quote,
     likes: 0,
     user: User.all.sample 
 )
 end
 
-20.times do Comment.create(
+100.times do Comment.create(
     comment: Faker::TvShows::Buffy.quote,
     likes: 0,
     user: User.all.sample,
